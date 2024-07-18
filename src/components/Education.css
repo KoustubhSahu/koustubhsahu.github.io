@@ -1,0 +1,22 @@
+.education {
+    padding: 20px;
+  }
+  
+  .education-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  .education-item p {
+    margin: 5px 0;
+  }
+  
