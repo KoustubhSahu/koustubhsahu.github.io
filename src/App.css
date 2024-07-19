@@ -44,4 +44,17 @@
   background-color: #3700b3;
 }
 
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+  }
 
+  .summary {
+    padding: 0;
+    text-align: center;
+  }
+
+  .animation {
+    margin-top: 2.5rem;
+  }
+}
