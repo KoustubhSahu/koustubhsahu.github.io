@@ -15,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
@@ -25,18 +26,21 @@ function App() {
   );
 }
 
-const Home = () => (
-  <div className="home">
-    <div className="home-content">
-      <div className="summary">
-        <h1>Hi all, I'm Koustubh Sahu 👋</h1>
-        <p>Software developer with 3+ years of experience in Web Development experience in technologies like Python, JavaScript, Node.js and React.js. I've consistently delivered interactive applications that enhance efficiency, save time, and boost user engagement. I am excited to bring my skills to a dynamic software development team.</p>
-        <a href="YOUR_GOOGLE_DRIVE_RESUME_LINK" className="resume-button" download>Download My Resume</a>
-      </div>
-      <Animation />
+function Home() {
+  return (
+    <div className="home">
+      <h1>Hi all, I'm Koustubh Sahu</h1>
+      <p>Software developer with 3+ years of experience in ...</p>
+      <a 
+        href="https://drive.google.com/uc?export=download&id=10pWSoYCaTUWfeWhIrU7EEk_lkwWNRb-C" 
+        className="btn btn-primary"
+        download="KoustubhSahu_Resume"
+      >
+        Download My Resume
+      </a>
     </div>
-  </div>
-);
+  );
+}
 
 
 export default App;
