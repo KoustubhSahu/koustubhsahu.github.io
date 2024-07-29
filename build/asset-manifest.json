@@ -1,13 +1,40 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3bf0b3e9.css",
-    "main.js": "/portfolio/static/js/main.9bf6abed.js",
+    "main.css": "/portfolio/static/css/main.35f4bfcd.css",
+    "main.js": "/portfolio/static/js/main.72f755e0.js",
+    "static/js/638.a9b48a89.chunk.js": "/portfolio/static/js/638.a9b48a89.chunk.js",
+    "static/js/58.1ce3718f.chunk.js": "/portfolio/static/js/58.1ce3718f.chunk.js",
+    "static/js/763.0ac302a3.chunk.js": "/portfolio/static/js/763.0ac302a3.chunk.js",
+    "static/js/938.ab495124.chunk.js": "/portfolio/static/js/938.ab495124.chunk.js",
+    "static/js/363.e3063674.chunk.js": "/portfolio/static/js/363.e3063674.chunk.js",
+    "static/js/893.d1521e15.chunk.js": "/portfolio/static/js/893.d1521e15.chunk.js",
+    "static/js/155.9babd551.chunk.js": "/portfolio/static/js/155.9babd551.chunk.js",
+    "static/media/postgre-sql.svg": "/portfolio/static/media/postgre-sql.9aed68683d15cfc3c3fd.svg",
+    "static/media/k-logo.png": "/portfolio/static/media/k-logo.b4048d8c1ff26f5a3493.png",
+    "static/media/mysql.svg": "/portfolio/static/media/mysql.16c78b724e24683c37fd.svg",
+    "static/media/node.svg": "/portfolio/static/media/node.27d0e4077d4d9a982073.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.47df2bbc29908e702ad8.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.6365c2edb348ab3339b4.svg",
+    "static/media/python.svg": "/portfolio/static/media/python.811eba5dbb7029c25cd4.svg",
+    "static/media/mongodb.svg": "/portfolio/static/media/mongodb.ad7076a60816aa615577.svg",
+    "static/media/ms-access.svg": "/portfolio/static/media/ms-access.818c67a177e4b24b4b8d.svg",
+    "static/media/ejs.svg": "/portfolio/static/media/ejs.e931451e67d4b8eb5911.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.8ee81345da1c18b6cdb4.svg",
+    "static/media/ms-excel.svg": "/portfolio/static/media/ms-excel.bf3d7d821daee386693c.svg",
+    "static/media/express.svg": "/portfolio/static/media/express.ea97b712340ffb8f11d8.svg",
+    "static/media/js.svg": "/portfolio/static/media/js.4d01b192f7963877fb07.svg",
+    "static/media/right.svg": "/portfolio/static/media/right.3532d6b299ced7281bae.svg",
+    "static/media/left.svg": "/portfolio/static/media/left.2383bdab5f79142f50f5.svg",
+    "static/media/npm.svg": "/portfolio/static/media/npm.5c03aefb2e08b32023c2.svg",
     "index.html": "/portfolio/index.html",
-    "main.3bf0b3e9.css.map": "/portfolio/static/css/main.3bf0b3e9.css.map",
-    "main.9bf6abed.js.map": "/portfolio/static/js/main.9bf6abed.js.map"
+    "static/media/css.svg": "/portfolio/static/media/css.315b8fdb9dbf75ae965b.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db.svg",
+    "static/media/javascript-extra.svg": "/portfolio/static/media/javascript-extra.b879f838faf1cb951d1c.svg",
+    "main.35f4bfcd.css.map": "/portfolio/static/css/main.35f4bfcd.css.map",
+    "main.72f755e0.js.map": "/portfolio/static/js/main.72f755e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bf0b3e9.css",
-    "static/js/main.9bf6abed.js"
+    "static/css/main.35f4bfcd.css",
+    "static/js/main.72f755e0.js"
   ]
 }

@@ -199,7 +199,7 @@
     }
 }
 @media (max-width: 468px) {
-    .timeline-container {
+    .timeline {
       height: 46rem;
     }
     .background-view {
