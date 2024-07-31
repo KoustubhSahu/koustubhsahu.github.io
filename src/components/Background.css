@@ -4,6 +4,11 @@
     align-items: center;
     background-color: #6200ea;
     padding-top: 4rem;
+    position: relative;
+}
+.background-marker {
+    position: absolute;
+    top: -1rem;
 }
 .background-container {
     display: flex;

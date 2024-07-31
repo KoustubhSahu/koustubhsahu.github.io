@@ -9,6 +9,7 @@ import './Background.css';
     const [activeView, setActiveView] = useState("education");
     return (
       <div className="background section" id="background">
+        <span class="background-marker" />
         <div className="background-container">
           <div className="background-nav">
             <button className={activeView === "education" ? "selected" : ""} onClick={() => setActiveView("education")}>Education</button>

@@ -16,6 +16,8 @@
   
 .skills-grid {
   display: grid;  
+  box-shadow: 0.5rem 0.5rem 2rem 0.5rem #eee;
+  border-radius: 3.5rem;
 }
 
 .skills-section {
@@ -68,6 +70,7 @@
     background: #6200ea;
     border-radius: 3.5rem;
     color: white; 
+    box-shadow: 0.2rem 0.2rem 3rem 0.1rem mediumpurple;
   }
 }
 
@@ -80,6 +83,7 @@
     background: #6200ea;
     border-radius: 3.5rem;
     color: white;
+    box-shadow: 0.2rem 0.2rem 3rem 0.1rem mediumpurple;
     
   }
  
@@ -94,6 +98,7 @@
     background: #6200ea;
     border-radius: 3.5rem;
     color:white;
+    box-shadow: 0.2rem 0.2rem 3rem 0.1rem mediumpurple;
   }
 }
   

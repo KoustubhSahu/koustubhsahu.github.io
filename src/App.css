@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 .section {
   padding: 3rem 0.2rem;
   width: 100%;
+  box-shadow: 0.5rem 0.5rem 2.5rem 0.1rem #eee;
 }
 
 .App {

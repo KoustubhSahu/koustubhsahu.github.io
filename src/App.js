@@ -1,13 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Animation from './components/Animation';
-import Skills from './components/Skills';
-import Education from './components/Education';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
 import Connect from './components/Connect';
-import './App.css';
+import Skills from './components/Skills';
 import Background from './components/Background';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import './App.css';
 
 function App() {
   return (
@@ -17,6 +16,7 @@ function App() {
       <Skills />
       <Background />
       <Projects />
+      <Contact />
     </div>
   );
 }

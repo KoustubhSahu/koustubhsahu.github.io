@@ -25,7 +25,7 @@ const projects = [
   },
   {
     title: 'Translate Call',
-    technologies: ['Javascript', 'Azure API', 'ScaleDrone toolkit'],
+    technologies: ['Azure API', 'ScaleDrone toolkit'],
     summary: 'Engineered a web app supporting real-time messaging and video chat with live message translation for communication across language barriers.',
     
   },
@@ -63,22 +63,5 @@ const Projects = () => {
     </div>
   );
 };
-
-// const Projects = () => {
-//   return (
-//     <div className="projects section" id="projects">
-//       <h2>Projects</h2>
-//       <div className="project-cards">
-//         {projects.map((project, index) => (
-//           <div key={index} className="project-card">
-//             <h3>{project.name}</h3>
-//             <p>{project.description}</p>
-//             <p><strong>Technologies:</strong> {project.technologies.join(', ')}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
 
 export default Projects;
