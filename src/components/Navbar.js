@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar">
       <ul>
         <div className="navbar-link-group"> 
-          <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+          <li><Link to="skills-marker" smooth={true} duration={500}>Skills</Link></li>
           <li><Link to="background-marker" smooth={true} duration={500}>Background</Link></li>
         </div>
         

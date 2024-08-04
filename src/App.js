@@ -29,13 +29,14 @@ const Home = () => (
           <h1>Hi, I'm Koustubh Sahu...!</h1>
           <p>Software developer with 3+ years of experience in Web Development experience in technologies like Python, JavaScript, Node.js and React.js. I've consistently delivered interactive applications that enhance efficiency, save time, and boost user engagement. I am excited to bring my skills to a dynamic software development team.</p>
           
-          <Connect linkedin="http://www.linkedin.com/in/koustubhsahu" github="https://github.com/KoustubhSahu" contact="#contact"
+          <Connect linkedin="http://www.linkedin.com/in/koustubhsahu" github="https://github.com/KoustubhSahu" contact="contact"
           resume="https://drive.google.com/file/d/10pWSoYCaTUWfeWhIrU7EEk_lkwWNRb-C/view?usp=sharing"/>
           
         </div>
       </div>
       <Animation fileName="home.json"/>
     </div>
+    <div id="skills-marker"/>
   </div>
 );
 

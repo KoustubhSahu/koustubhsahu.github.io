@@ -33,13 +33,19 @@ const projects = [
     title: 'ice N fire',
     technologies: ['Python', 'Pygame'],
     summary: 'Developed a captivating game using Python and Pygame, featuring custom animations, an intuitive user input system, and an object-oriented approach to enhance gameplay and code organization.',
-    
+    github: 'https://github.com/KoustubhSahu/ice_N_fire',
   },
   {
     title: 'Weather App',
     technologies: ['Node.js', 'Express.js', 'EJS'],
     summary: 'Developed a responsive Weather App using Node.js, Express.js, and EJS, providing real-time weather updates based on user-input city names.',
-    
+    github: 'https://github.com/KoustubhSahu/WeatherProject',
+  },
+  {
+    title: 'To-Do List',
+    technologies: ['Node.js', 'Express.js', 'EJS'],
+    summary: 'Developed a Node.js to-do list app with task creation, viewing, completion, categorization, and responsive design.',
+    github: 'https://github.com/KoustubhSahu/todo-list',
   }
 ];
 

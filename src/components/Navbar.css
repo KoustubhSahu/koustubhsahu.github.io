@@ -56,6 +56,7 @@
   border-radius: 50%;
   margin: 0 1.2rem;
   transform: scale(3.5) translateY(0.2rem);
+  border: 1px solid #6200ea;
 }
 
 .k-logo:hover {
