@@ -16,18 +16,20 @@ const projects = [
     title: 'Career Fair Navigator',
     technologies: ['React.js', 'Google Sheet API'],
     summary: 'An interactive map and Employer dashbaord for Career Fair events, built using React.js and Google Sheet API to provide real-time updates and data visualization.',  
-  },
-  {
-    title: 'Smart Form',
-    technologies: ['React.js', 'Google Sheet API'],
-    summary: 'Designed and developed a dynamic and visually engaging web app utilising React.js to enhance user experience.',
     
   },
+  // {
+  //   title: 'Smart Form',
+  //   technologies: ['React.js', 'Google Sheet API'],
+  //   summary: 'Designed and developed a dynamic and visually engaging web app utilising React.js to enhance user experience.',
+    
+  // },
   {
     title: 'Translate Call',
     technologies: ['Azure API', 'ScaleDrone toolkit'],
     summary: 'Engineered a web app supporting real-time messaging and video chat with live message translation for communication across language barriers.',
-    
+    github: 'https://github.com/KoustubhSahu/translate_call',
+    liveURL: 'https://koustubhsahu.github.io/translate_call/', 
   },
   {
     title: 'ice N fire',
