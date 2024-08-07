@@ -107,7 +107,7 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    background-image: url('./icon/left.svg');
+    background-image: url('./images/icon/left.svg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -138,7 +138,7 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    background-image: url('./icon/right.svg');
+    background-image: url('./images/icon/right.svg');
     /* Replace with your image path */
     background-size: cover;
     /* Adjust background size as needed */

@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
 
-const image = require.context('./icon', false, /\.(png|jpe?g|svg)$/);
+// Create a context for images
+const image = require.context('./images', false, /\.(png|jpe?g|svg)$/);
 
 const Navbar = () => {
   return (

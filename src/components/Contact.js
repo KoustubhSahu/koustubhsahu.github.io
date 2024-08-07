@@ -1,7 +1,8 @@
 import React from "react";
 import "./Contact.css";
 
-const image = require.context("./icon", false, /\.(png|jpe?g|svg)$/);
+// Create a context for images
+const icon = require.context("./images/icon", false, /\.(png|jpe?g|svg)$/);
 const email = "sahukoustubh@gmail.com";
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
           <div className="contact-form-content">
             <div className="email-container">
               <img
-                src={image("./gmail.svg")}
+                src={icon("./gmail.svg")}
                 className="email-icon"
                 alt="email-icon"
               />

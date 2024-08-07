@@ -3,7 +3,7 @@ import Animation from "./Animation";
 import "./Skills.css";
 
 // Create a context for images
-const images = require.context('./icon', false, /\.(png|jpe?g|svg)$/);
+const icon = require.context('./images/icon', false, /\.(png|jpe?g|svg)$/);
 
 const skillsSection = [
   {name: "Frontend", class:"frontend", animation: "frontend.json", 
@@ -32,7 +32,7 @@ function Skills (props) {
               <tr>
                 <td className="skill-logo">
                   
-                  <img src={images(`./${skill.icon}`)} alt={skill.name} />
+                  <img src={icon(`./${skill.icon}`)} alt={skill.name}/>
                 </td>
               <td key={index}>
                 {skill.name}
