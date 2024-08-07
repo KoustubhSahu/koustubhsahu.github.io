@@ -81,8 +81,10 @@ const Projects = () => {
           <div key={index} className="project-card">
             <div 
               className="project-screenshot"
-              style={{ backgroundImage: `url(${images(`./${project.screenshot}`)})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+              style= {project.screenshot ? { backgroundImage: `url(${images(`./${project.screenshot}`)})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' } : {backgroundColor: 'rgba(240,240,240,0.5)'}}
+              aria-label={project.title}
             >
+              <h2>{project.screenshot ? "" : project.title}</h2>
               <span class="project-summary">{project.summary}
               <span class="project-links">
                 <Router>
