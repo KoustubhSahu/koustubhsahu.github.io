@@ -2,7 +2,7 @@ import React from 'react';
 
 const experience = [
   {
-    position: 'MIS Systems Developer',
+    position: 'Software Engineer - MIS',
     company: 'Career Development Services at NJIT, Newark, NJ',
     duration: 'Jan 2023 - Present',
     detail: 'Developed interactive dashboards and applications using Node.js, Express.js, PostgreSQL, and Chart.js.'

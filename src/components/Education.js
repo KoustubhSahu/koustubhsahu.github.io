@@ -16,7 +16,7 @@ const education = [
   {
     degree: "BE in Elec. & Tele Comm. Engineering",
     university: "RTM Nagpur University",
-    year: " Sept 2014 - May 2018",
+    year: "Sept 2014 - May 2018",
     detail: "CGPA: 7.67/10",
   },
 ];
