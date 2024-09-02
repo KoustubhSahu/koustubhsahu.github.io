@@ -31,21 +31,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .summary {
-  flex: 1;
   padding: 20px;
 }
 .summary-content {
   width: 80%;
-  max-width: 40rem;
+  max-width: 44rem;
 
   p {
-    max-width: 27rem;
+    /* max-width: 27rem; */
     margin: 2rem auto;
     text-align: justify;
   }
   
 }
-
 
 .resume-button {
   display: inline-block;

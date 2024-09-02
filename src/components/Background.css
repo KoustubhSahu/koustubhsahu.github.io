@@ -5,6 +5,7 @@
     background-color: #6200ea;
     padding-top: 4rem;
     position: relative;
+    color: white;
 }
 .background-marker {
     position: absolute;
@@ -34,6 +35,10 @@
         border: 0.2rem solid white;
         border-radius: 0.3rem;
         margin: 0.1rem;
+        transition: transform 0.07s ease-in-out;
+    }
+    button:hover {
+        box-shadow: 0 0 0.5rem   white;
     }
 }
 .background-nav .selected {
@@ -72,7 +77,6 @@
     margin: 2rem 0;
     width: 100%;
     height: 35rem;
-    background-color: #6200ea;
 }
 
 .timeline-container {
@@ -160,9 +164,11 @@
     flex-direction: column;
     width: 50%;
     padding: 0 2rem 2rem;
-
 }
 
+#experience .active {
+    cursor: pointer;
+}
 .timneline-spine {
     width: 0;
     height: 90%;
@@ -195,8 +201,73 @@
 
 .timeline-detail {
     margin: 0.4rem 0;
-
+    white-space: pre-wrap;
 }
+
+
+#experience {
+    position: relative;
+    overflow: hidden;
+}
+  
+.timeline, .experience-detail {
+    transition: transform 0.5s ease-in-out;  
+}
+
+.experience-detail {
+    text-align: left;
+}
+
+.expereince-detial-back {
+    all: unset;
+
+    img{
+    width: 2rem;
+    height: 2rem;
+    padding: 0.1rem 0;
+    margin: 0 0.1rem 0.5rem;
+    }
+
+    img:hover{
+        border-radius: 20%;
+        border: 2px solid white;
+        transform: scale(1.1);
+        transition: 0 ease-in-out transform;
+    }
+
+    img:active{
+        transform: scale(0.95);
+        transition: 0.2s ease-in-out transform;
+    }
+}
+
+
+.expereince-detial-show {
+    transform: translateX(0);
+    margin: 2rem 0;
+    top: 0;
+    position: absolute;
+}
+.expereince-detial-hide {
+    transform: translateX(-100%);
+}
+.expereince-timeline-show {
+    transform: translateX(0);
+}
+.expereince-timeline-hide {
+    transform: translateX(100%);
+}
+
+.volunteering-experiences {
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    text-align: left;
+    margin: 2rem 0;
+    width: 100%;
+    height: 35rem;
+}
+
 
 @media (max-width: 768px) {
     .background-content {
