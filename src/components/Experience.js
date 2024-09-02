@@ -57,8 +57,8 @@ const Experience = () => {
         <div className="timeline-container">
 
           {experience.map((item, index) => (
-            <div key={index} className={`timeline-row ${index%2===0 ? "timeline-left" : "timeline-right" }`} onClick={() => handleExperienceClick(item)}>
-              <div className="timeline-content active">
+            <div key={index} className={`timeline-row ${index%2===0 ? "timeline-left" : "timeline-right" }`} >
+              <div className="timeline-content active" onClick={() => handleExperienceClick(item)}>
                 <h3 className="timeline-heading">{item.position}</h3>
                 <p className="timeline-subheading">{item.company}</p>
                 <p className="timeline-duration">{item.duration}</p>
