@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.464883aa.css",
-    "main.js": "/static/js/main.be38f1e3.js",
+    "main.css": "/static/css/main.2c2342ae.css",
+    "main.js": "/static/js/main.fc4e7d67.js",
     "static/js/638.a9b48a89.chunk.js": "/static/js/638.a9b48a89.chunk.js",
     "static/js/58.1ce3718f.chunk.js": "/static/js/58.1ce3718f.chunk.js",
     "static/js/763.0ac302a3.chunk.js": "/static/js/763.0ac302a3.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/ice_n_fire_ss.png": "/static/media/ice_n_fire_ss.ab9aed260fa4dc6161b6.png",
     "static/media/translate_call_ss.png": "/static/media/translate_call_ss.6b170fa64ab355a875c4.png",
     "static/media/cfn_ss.png": "/static/media/cfn_ss.e57922016505176f6700.png",
+    "static/media/7cups.png": "/static/media/7cups.80e6097692544d3e0876.png",
     "static/media/njit_student_outcomes_dashboard_ss.png": "/static/media/njit_student_outcomes_dashboard_ss.19d1de0bd0f40fe4ec6e.png",
     "static/media/todo_list_ss.png": "/static/media/todo_list_ss.ad303ae6426adffeba7c.png",
     "static/media/postgre-sql.svg": "/static/media/postgre-sql.9aed68683d15cfc3c3fd.svg",
@@ -20,6 +21,7 @@
     "static/media/mysql.svg": "/static/media/mysql.16c78b724e24683c37fd.svg",
     "static/media/node.svg": "/static/media/node.27d0e4077d4d9a982073.svg",
     "static/media/github.svg": "/static/media/github.47df2bbc29908e702ad8.svg",
+    "static/media/back.svg": "/static/media/back.6ffa17e9770e82944607.svg",
     "static/media/react.svg": "/static/media/react.6365c2edb348ab3339b4.svg",
     "static/media/python.svg": "/static/media/python.811eba5dbb7029c25cd4.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.ad7076a60816aa615577.svg",
@@ -40,11 +42,11 @@
     "static/media/css.svg": "/static/media/css.315b8fdb9dbf75ae965b.svg",
     "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db.svg",
     "static/media/javascript-extra.svg": "/static/media/javascript-extra.b879f838faf1cb951d1c.svg",
-    "main.464883aa.css.map": "/static/css/main.464883aa.css.map",
-    "main.be38f1e3.js.map": "/static/js/main.be38f1e3.js.map"
+    "main.2c2342ae.css.map": "/static/css/main.2c2342ae.css.map",
+    "main.fc4e7d67.js.map": "/static/js/main.fc4e7d67.js.map"
   },
   "entrypoints": [
-    "static/css/main.464883aa.css",
-    "static/js/main.be38f1e3.js"
+    "static/css/main.2c2342ae.css",
+    "static/js/main.fc4e7d67.js"
   ]
 }
