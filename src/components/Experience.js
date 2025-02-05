@@ -3,17 +3,29 @@ import React ,{ useState } from 'react';
 const icon = require.context('./images/icon', false, /\.(png|jpe?g|svg)$/);
 
 const experience = [
-  {
-    position: 'Software Engineer - MIS',
+//   {
+//     position: 'Software Engineer - MIS',
+//     company: 'Career Development Services at NJIT, Newark, NJ',
+//     duration: 'Jan 2023 - Present',
+//     detail: 
+//     ` Developed an interactive Student Outcome Dashboard using Node.js, Express.js, PostgreSQL, and Chart.js, saving 50 human hours per semester, processing 6000+ records, and enabling efficient data analysis.
+    
+//     Created a full-stack Career Fair Navigator application using Node.js, Express.js, and various RESTful APIs, including the Google API and DYMO Web API, leading to a 20% increase in student engagement by facilitating efficient navigation and interaction during career fairs.
+    
+//     Engineered an Employer Hiring Dashboard using the abovementioned technologies, enabling automated data processing and visualisation with user-selectable parameters and secure access permissions, including premium data manipulation and maintenance access.`
+// },
+{
+    position: 'Data Management Assistant',
     company: 'Career Development Services at NJIT, Newark, NJ',
     duration: 'Jan 2023 - Present',
     detail: 
-    ` Developed an interactive Student Outcome Dashboard using Node.js, Express.js, PostgreSQL, and Chart.js, saving 50 human hours per semester, processing 6000+ records, and enabling efficient data analysis.
-    
-    Created a full-stack Career Fair Navigator application using Node.js, Express.js, and various RESTful APIs, including the Google API and DYMO Web API, leading to a 20% increase in student engagement by facilitating efficient navigation and interaction during career fairs.
-    
-    Engineered an Employer Hiring Dashboard using the abovementioned technologies, enabling automated data processing and visualisation with user-selectable parameters and secure access permissions, including premium data manipulation and maintenance access.`
-},
+    `   This Data Management Assistant position at NJIT's Career Development Services focuses on managing and analyzing career outcomes data, primarily through the Handshake platform.  Responsibilities include managing First Destination Survey (FDS) reporting, ensuring NACE compliance, and contributing to national data trends.  The role involves streamlining data workflows, maintaining data integrity for student and employer profiles, and automating tasks using Google Apps Script.
+
+    Leveraging ETL and data engineering skills, the role develops and optimizes data pipelines using Python and SQL, significantly improving data retrieval times.  This also includes creating interactive dashboards with Power BI, Tableau, and Chart.js, such as the Employer Hiring Dashboard, to provide actionable insights to stakeholders.
+
+    Finally, this role supports career services and event operations.  This includes assisting with career fairs and exploring/integrating new technologies to enhance event efficiency and participant engagement, improving the overall experience for both employers and students.`
+
+  },
  {
     position: 'MIS Assistant',
     company: 'Career Development Services at NJIT, Newark, NJ',
